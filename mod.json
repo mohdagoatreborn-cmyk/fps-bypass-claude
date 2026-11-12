@@ -1,0 +1,25 @@
+{
+	"geode": "5.11.2",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "imdidi.fps-bypass",
+	"name": "FPS Bypass",
+	"version": "v1.0.0",
+	"developer": "soldidi",
+	"description": "Set a custom FPS limit.",
+	"settings": {
+		"fps": {
+			"type": "int",
+			"name": "FPS",
+			"description": "Target frames per second.",
+			"default": 240,
+			"min": 1,
+			"max": 1000,
+			"control": { "input": true, "slider": true }
+		}
+	}
+}
